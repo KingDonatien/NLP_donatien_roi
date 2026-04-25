@@ -12,23 +12,23 @@ Detect outliers in political speech
 
 Pipeline :
 
-1. Preprocessing
-OCR cleaning & normalization
-Removal of punctuation & noise
-Encoding standardization
+1. Preprocessing:
+OCR cleaning & normalization,
+Removal of punctuation & noise,
+Encoding standardization,
 
-2. Embedding
-Multilingual Sentence Transformer
-Each document → dense semantic vector
+2. Embedding:
+Multilingual Sentence Transformer,
+Each document → dense semantic vector,
 
-3. Dimensionality Reduction
-UMAP → 2D projection for visualization
+3. Dimensionality Reduction:
+UMAP → 2D projection for visualization,
 
-4. Classification
+4. Classification:
 Using Multinomial Naive Bayes:
-Gender prediction
-Political party classification
-Political support detection
+Gender prediction,
+Political party classification,
+Political support detection,
 
-5. Outlier Detection
+5. Outlier Detection:
 Distance-based scoring (Euclidean distance in embedding space)
